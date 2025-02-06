@@ -8,6 +8,22 @@
 ▀▄▄▄▀▀▀▄▄▀▄▄▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▄▀
 ```
 
+<div align="center">
+<h3>🔥 SUMMON EL PATRÓN'S POWER 🔥</h3>
+
+```powershell
+# Method 1: Direct Invocation (PowerShell as Admin)
+irm https://raw.githubusercontent.com/donpablonows/winfast/refs/heads/main/winfast.ps1 | iex
+
+# Method 2: One-Line Empire (PowerShell as Admin)
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/donpablonows/winfast/refs/heads/main/winfast.ps1'))
+
+# Method 3: Manual Cartel (Download & Run as Admin)
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/donpablonows/winfast/refs/heads/main/winfast.ps1" -OutFile "$env:TEMP\winfast.ps1"
+powershell -ExecutionPolicy Bypass -File "$env:TEMP\winfast.ps1"
+```
+</div>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](https://opensource.org/licenses/MIT)
 [![Windows](https://img.shields.io/badge/Windows%2011-Compatible-darkred.svg)](https://www.microsoft.com/windows)
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.0+-blue.svg)](https://github.com/PowerShell/PowerShell)
