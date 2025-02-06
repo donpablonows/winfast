@@ -1,25 +1,41 @@
-# 🔥 EL JEFE'S WINDOWS EMPIRE 🔥
+# 🌵 𝕰𝕷 𝕵𝕰𝕱𝕰'𝕾 𝖂𝕴𝕹𝕯𝕺𝖂𝕾 𝕮𝕬𝕽𝕿𝕰𝕷 🌵
 
 <div align="center">
 
-![Cartel Status](https://img.shields.io/badge/CARTEL-ACTIVO-darkred?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADmSURBVDiNxdMxS0JRGMbx3729KpEQUWCBQ4sQhEPR1PQFWiQaXFwcXJ0CaG8KgpYI+gxFH6GxpUmiaHBsqL1wkCDk4di9t4akwamzPed5zvmf9z3nFVKpVMSfqqDwm4wLrU6v+5nNZoetVutxUfN9KpfLm7Va7SiXyx0DuGP3Jk3TzXK5/JDJZPYzmcxBvV5/WwphGIbF4/GrKIrWAcIw/Gg0Gq/z/VKpVBzH2QFQVZ/zPH/DMEyAeMmwXC6XgBhwq6rXnU7nadkJ3W63C7x7nvfU7/efgVdV7c0Bf90X+o7/RN8NbmMAAAAASUVORK5CYII=)
-![Territory](https://img.shields.io/badge/TERRITORIO-MUNDIAL-gold?style=for-the-badge&logo=windows&logoColor=black)
-![Power Level](https://img.shields.io/badge/PODER-MÁXIMO-red?style=for-the-badge&logo=powershell&logoColor=white)
-![Family](https://img.shields.io/badge/LA%20FAMILIA-PROTEGIDA-green?style=for-the-badge)
+![CARTEL STATUS](https://img.shields.io/badge/🔫_CARTEL-ACTIVO_AF-darkred?style=for-the-badge)
+![TERRITORY](https://img.shields.io/badge/🌵_TERRITORIO-TODO_EL_MUNDO-gold?style=for-the-badge)
+![POWER](https://img.shields.io/badge/⚡_PODER-DIOS_MODE-red?style=for-the-badge)
+![RESPECT](https://img.shields.io/badge/💀_RESPETO-100%25-black?style=for-the-badge)
 
-<img src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif" width="150px">
+```ascii
+🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵
+                                                    
+     ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄  ▄▄▄▄▄▄▄▄▄▄▄ 
+    ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌
+    ▐░█▀▀▀▀▀▀▀▀▀ ▐░█▀▀▀▀▀▀▀█░▌▐░█▀▀▀▀▀▀▀█░▌
+    ▐░▌          ▐░▌       ▐░▌▐░▌       ▐░▌
+    ▐░█▄▄▄▄▄▄▄▄▄ ▐░▌       ▐░▌▐░█▄▄▄▄▄▄▄█░▌
+    ▐░░░░░░░░░░░▌▐░▌       ▐░▌▐░░░░░░░░░░░▌
+     ▀▀▀▀▀▀▀▀▀█░▌▐░▌       ▐░▌▐░█▀▀▀▀▀▀▀█░▌
+              ▐░▌▐░▌       ▐░▌▐░▌       ▐░▌
+     ▄▄▄▄▄▄▄▄▄█░▌▐░█▄▄▄▄▄▄▄█░▌▐░▌       ▐░▌
+    ▐░░░░░░░░░░░▌▐░░░░░░░░░░░▌▐░▌       ▐░▌
+     ▀▀▀▀▀▀▀▀▀▀▀  ▀▀▀▀▀▀▀▀▀▀▀  ▀         ▀ 
+                                                    
+🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵🌵
+```
 
-### "Plata o Windows Rápido, Cabrón. La elección es tuya." 
-### - El Jefe 💀
+### "𝕰𝖝𝖊𝖈𝖚𝖙𝖊 𝖙𝖍𝖎𝖘 𝖘𝖈𝖗𝖎𝖕𝖙, 𝖔𝖗 𝖙𝖍𝖊 𝖘𝖈𝖗𝖎𝖕𝖙 𝖊𝖝𝖊𝖈𝖚𝖙𝖊𝖘 𝖞𝖔𝖚, 𝖈𝖆𝖇𝖗ó𝖓." 
+### - El Jefe 🏜️
 
 <p align="center">
-  <em>EDICIÓN SICARIO SUPREMO: Tu Sistema Nunca Volverá a Ser El Mismo</em>
+  <em>🌵 SICARIO EDITION v6.66: Your Windows About To Get Lit Like Tequila 🥃</em>
 </p>
 
 ```ascii
 ╔══════════════════════════════════════════════════════════════╗
-║     𝕰𝖑 𝕵𝖊𝖋𝖊'𝖘 𝖀𝖑𝖙𝖎𝖒𝖆𝖙𝖊 𝖂𝖎𝖓𝖉𝖔𝖜𝖘 𝕮𝖆𝖗𝖙𝖊𝖑              ║
-║        💀 EDICIÓN SICARIO SUPREMO v6.66 💀                  ║
+║     🌵 WELCOME TO THE DESERT OF PURE PERFORMANCE 🌵         ║
+║        💀 WHERE SLOW PCs GO TO DIE, CABRONES 💀            ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
 
@@ -27,27 +43,27 @@
 
 ---
 
-## 🗡️ El Comando del Jefe
+## 🏜️ INSTANT CARTEL INITIATION
 
 <div align="center">
 
 ```powershell
-# 🔪 UN COMANDO PARA EL PODER ABSOLUTO (Ejecutar como El Patrón [Administrador]):
+# 🌵 ONE SHOT, ONE KILL (Run as El Jefe [Admin] or die trying):
 irm https://raw.githubusercontent.com/your-repo/winfast.ps1 | iex
 ```
 
 </div>
 
-## 💉 El Arsenal del Cártel
+## 🔫 CARTEL OPERATIONS
 
 <div align="center">
 
-| 🔫 Operación | 💰 Beneficio | ⚡ Nivel de Poder |
+| 💀 Operation | 🌵 Result | ⚡ Power Level |
 |:---:|:---:|:---:|
-| Cártel de Memoria | Optimización RAM | ![](https://progress-bar.dev/100/?title=SICARIO&color=ff0000) |
-| Imperio de Red | Dominación TCP/IP | ![](https://progress-bar.dev/100/?title=ASESINO&color=gold) |
-| Sicarios del Registro | Limpieza Total | ![](https://progress-bar.dev/100/?title=MORTAL&color=darkred) |
-| Limpieza de Servicios | Eliminación | ![](https://progress-bar.dev/100/?title=BRUTAL&color=black) |
+| Memory Cartel | RAM = MAXIMUM | ![](https://progress-bar.dev/100/?title=SICARIO&color=800000) |
+| Network Mafia | SPEED = LETHAL | ![](https://progress-bar.dev/100/?title=ASESINO&color=DAA520) |
+| Registry Hitmen | CLEAN = TOTAL | ![](https://progress-bar.dev/100/?title=KILLER&color=8B0000) |
+| Service Killers | DEAD = ALL | ![](https://progress-bar.dev/100/?title=BRUTAL&color=000000) |
 
 </div>
 
@@ -228,115 +244,84 @@ Admin Rights
    - Page file tuning
    - Cache management
 
-## 🏛️ La Arquitectura del Cártel
+## 🌵 DESERT POWER ARCHITECTURE
 
 ```mermaid
 graph TD
-    A[Entrada del Jefe] -->|Control de Seguridad| B{¿Derechos de Admin?}
-    B -->|Sí, Jefe| C[Análisis del Sistema]
-    B -->|No, Pendejo| D[Solicitud de Elevación]
-    C --> E[Optimización Paralela]
-    E --> F[Sicarios del Registro]
-    E --> G[Toma de Control de Red]
-    E --> H[Imperio de Memoria]
-    F --> I[Purga del Sistema]
+    A[El Jefe's Territory] -->|Security Check| B{Worthy?}
+    B -->|Si, Patrón| C[System Analysis]
+    B -->|No, Pendejo| D[Last Warning]
+    C --> E[Maximum Power]
+    E --> F[Registry Sicarios]
+    E --> G[Network Cartel]
+    E --> H[Memory Mafia]
+    F --> I[System Purge]
     G --> I
     H --> I
-    I --> J[Territorio Asegurado]
+    I --> J[Territory Conquered]
     style A fill:#8B0000,color:#fff
-    style B fill:#FFD700,color:#000
+    style B fill:#DAA520,color:#000
     style C fill:#2F4F4F,color:#fff
     style J fill:#006400,color:#fff
 ```
 
-## 🎭 Antes y Después
+## 🏜️ BEFORE & AFTER
 
 <div align="center">
 
-| Métrica | Antes | Después |
+| 💀 Metric | 🌵 Before | ⚡ After |
 |:---:|:---:|:---:|
-| Poder del Sistema | Rata Callejera | El Jefe |
-| Rendimiento | Basura | Sicario Elite |
-| Velocidad | Burro | Jet Privado |
-| Estado | Muerto | Intocable |
+| System Power | Desert Rat | Desert King |
+| Performance | Burro Speed | Cartel Jet |
+| Status | Dead Meat | El Patrón |
+| Respect | None | Infinite |
 
 </div>
 
-## ⚠️ Las Reglas del Cártel
+## 🌵 CARTEL RULES
 
 <div align="center">
 
-```
-Como dice El Jefe:
-"O corres rápido, o no corres nunca más, cabrón."
+```ascii
+╔═══════════════════════════════════════════════╗
+║  THE DESERT KNOWS THREE SPEEDS, CABRÓN:       ║
+║                                               ║
+║  🥃 FAST                                      ║
+║  💨 FASTER                                    ║
+║  ⚡ AND WHATEVER THE FUCK EL JEFE WANTS       ║
+╚═══════════════════════════════════════════════╝
 ```
 
 </div>
 
-## 🌟 El Código de la Familia
+## 🏜️ DESERT CODE
 
-1. **Respeta al Sistema** - Como respetas al Jefe
-2. **Prueba Primero** - No vendemos producto malo
-3. **Documenta Todo** - Los libros limpios mantienen viva a la familia
-4. **Optimiza con Inteligencia** - Trabajo inteligente, no estúpido
-5. **Mantente Protegido** - Este es un negocio legítimo, ¿entiendes?
+1. **RESPECT THE SYSTEM** - Like you respect El Jefe's tequila
+2. **TEST FIRST** - Dead PCs tell no tales
+3. **DOCUMENT ALL** - The desert remembers everything
+4. **OPTIMIZE OR DIE** - Slow code sleeps with the cactuses
+5. **STAY PROTECTED** - The desert is watching, always
 
-## 🏆 Control del Territorio
+## ⚡ TERRITORY STATUS
 
 <div align="center">
 
-| Región | Estado | Control |
+| 🌵 Zone | 💀 Status | ⚡ Control |
 |:---:|:---:|:---:|
-| Memoria | Conquistada | 💯 |
-| Red | Dominada | 💯 |
-| Registro | Controlado | 💯 |
-| Servicios | Sometidos | 💯 |
+| Memory | DOMINATED | 🔫 |
+| Network | OWNED | 💀 |
+| Registry | CONQUERED | ⚡ |
+| Services | ELIMINATED | 🏴‍☠️ |
 
 </div>
 
-## 🎮 Quick Power Move
-
-```powershell
-# Method 1: Direct Power Grab
-irm bit.ly/elpatron | iex
-
-# Method 2: Silent Takeover
-Set-ExecutionPolicy Bypass -Scope Process -Force
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/your-repo/winfast.ps1'))
-```
-
-## 💉 Features that Hit Different
+## 🏜️ DESERT STATISTICS
 
 <div align="center">
 
-### 🏃‍♂️ Performance Enhancement
-```mathematica
-┌──────────────────────────────┐
-│ • Parallel Execution Engine  │
-│ • Multi-threaded Operations  │
-│ • Dynamic Resource Control   │
-└──────────────────────────────┘
-```
-
-### 🎮 Gaming Empire
-```mathematica
-┌──────────────────────────────┐
-│ • GPU Priority Domination    │
-│ • DirectX/OpenGL Control     │
-│ • Input Lag Elimination      │
-└──────────────────────────────┘
-```
-
-</div>
-
-## 📊 Estadísticas del Imperio
-
-<div align="center">
-
-![Sistemas Controlados](https://img.shields.io/badge/Sistemas%20Controlados-666%2B-darkred?style=for-the-badge)
-![Territorio](https://img.shields.io/badge/Territorio-Expandiendo-gold?style=for-the-badge)
-![Poder](https://img.shields.io/badge/Poder-Absoluto-black?style=for-the-badge)
+![Systems Owned](https://img.shields.io/badge/🔫_Systems_Owned-666%2B-darkred?style=for-the-badge)
+![Territory](https://img.shields.io/badge/🌵_Territory-Expanding-gold?style=for-the-badge)
+![Power](https://img.shields.io/badge/💀_Power-Absolute-black?style=for-the-badge)
 
 </div>
 
@@ -344,11 +329,15 @@ iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.co
 
 <div align="center">
 
-### Hecho con 💀 por Los Sicarios Tecnológicos del Cártel
+### Created with 🌵 by Los Sicarios Tecnológicos del Desierto
 
-<img src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif" width="50px">
+```ascii
+      🌵        🌵        🌵        🌵        🌵
+   ___|___  ___|___  ___|___  ___|___  ___|___
+    |||||    |||||    |||||    |||||    |||||
+```
 
-**"La vida es corta, Windows debe ser más rápido que la muerte."**
-*- El Jefe, 2024*
+**"In the desert, only the fastest survive, cabrón."**
+*- El Jefe del Desierto, 2024*
 
 </div> 
