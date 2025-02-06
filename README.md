@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/883c6c60-0243-4681-b672-14c8b2dc7c37)
+![image](https://github.com/user-attachments/assets/6f5df79b-280c-4e14-bff1-95760ee6bec8)
+
 # 🔥 𝕰𝕷 𝕵𝕰𝕱𝕰'𝕾 𝖂𝕴𝕹𝕯𝕺𝖂𝕾 𝕮𝕬𝕽𝕿𝕰𝕷 🔥
 
 <div align="center">
