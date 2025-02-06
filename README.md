@@ -19,6 +19,41 @@
 
 ---
 
+## ⚡ INSTANT INSTALLATION
+
+```powershell
+# 🚀 ONE-LINE INSTALLATION (Copy & Paste in PowerShell as Admin):
+irm https://raw.githubusercontent.com/your-repo/winfast.ps1 | iex
+```
+
+<div align="center">
+
+### 💎 OR CHOOSE YOUR STYLE 💎
+
+| 🌟 Direct Download | 🔥 Manual Install | 💫 Git Clone |
+|:---:|:---:|:---:|
+| [Download Latest Release](https://github.com/your-repo/releases/latest) | Save script & run as admin | `git clone https://github.com/your-repo/winfast.git` |
+
+</div>
+
+<details>
+<summary>🛡️ Advanced Installation Methods</summary>
+
+```powershell
+# Method 1: Direct Download & Execute
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/your-repo/winfast.ps1" -OutFile "$env:TEMP\winfast.ps1"
+powershell -ExecutionPolicy Bypass -File "$env:TEMP\winfast.ps1"
+
+# Method 2: System-Wide Installation
+Set-ExecutionPolicy Bypass -Scope Process -Force
+[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072
+iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/your-repo/winfast.ps1'))
+```
+
+</details>
+
+---
+
 ## 🌋 Features That Will Blow Your Mind
 
 <div align="center">
