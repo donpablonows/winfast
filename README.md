@@ -1,52 +1,53 @@
-# 🌟 El Patrón's Windows Empire 🌟
+# 🔥 EL JEFE'S WINDOWS EMPIRE 🔥
 
 <div align="center">
 
-![Cartel Status](https://img.shields.io/badge/Cartel-Active-darkred?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADmSURBVDiNxdMxS0JRGMbx3729KpEQUWCBQ4sQhEPR1PQFWiQaXFwcXJ2CaG8KgpYI+gxFH6GxpUmiaHBsqL1wkCDk4di9t4akwamzPed5zvmf9z3nFVKpVMSfqqDwm4wLrU6v+5nNZoetVutxUfN9KpfLm7Va7SiXyx0DuGP3Jk3TzXK5/JDJZPYzmcxBvV5/WwphGIbF4/GrKIrWAcIw/Gg0Gq/z/VKpVBzH2QFQVZ/zPH/DMEyAeMmwXC6XgBhwq6rXnU7nadkJ3W63C7x7nvfU7/efgVdV7c0Bf90X+o7/RN8NbmMAAAAASUVORK5CYII=)
-![Territory](https://img.shields.io/badge/Territory-Worldwide-gold?style=for-the-badge&logo=windows&logoColor=white)
-![Power Level](https://img.shields.io/badge/Power-Maximum-red?style=for-the-badge&logo=powershell&logoColor=white)
-![Family](https://img.shields.io/badge/Family-Protected-green?style=for-the-badge)
+![Cartel Status](https://img.shields.io/badge/CARTEL-ACTIVO-darkred?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAAdgAAAHYBTnsmCAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADmSURBVDiNxdMxS0JRGMbx3729KpEQUWCBQ4sQhEPR1PQFWiQaXFwcXJ0CaG8KgpYI+gxFH6GxpUmiaHBsqL1wkCDk4di9t4akwamzPed5zvmf9z3nFVKpVMSfqqDwm4wLrU6v+5nNZoetVutxUfN9KpfLm7Va7SiXyx0DuGP3Jk3TzXK5/JDJZPYzmcxBvV5/WwphGIbF4/GrKIrWAcIw/Gg0Gq/z/VKpVBzH2QFQVZ/zPH/DMEyAeMmwXC6XgBhwq6rXnU7nadkJ3W63C7x7nvfU7/efgVdV7c0Bf90X+o7/RN8NbmMAAAAASUVORK5CYII=)
+![Territory](https://img.shields.io/badge/TERRITORIO-MUNDIAL-gold?style=for-the-badge&logo=windows&logoColor=black)
+![Power Level](https://img.shields.io/badge/PODER-MÁXIMO-red?style=for-the-badge&logo=powershell&logoColor=white)
+![Family](https://img.shields.io/badge/LA%20FAMILIA-PROTEGIDA-green?style=for-the-badge)
 
 <img src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif" width="150px">
 
-### "I am Pablo Emilio Escobar Gaviria, and I optimize Windows like I run my empire - with absolute power and precision."
+### "Plata o Windows Rápido, Cabrón. La elección es tuya." 
+### - El Jefe 💀
 
 <p align="center">
-  <em>Plata o Plomo Edition: Your System Will Never Be The Same</em>
+  <em>EDICIÓN SICARIO SUPREMO: Tu Sistema Nunca Volverá a Ser El Mismo</em>
 </p>
 
 ```ascii
-╔═══════════════════════════════════════════════════════════════╗
-║     𝕰𝖑 𝕻𝖆𝖙𝖗ó𝖓'𝖘 𝖀𝖑𝖙𝖎𝖒𝖆𝖙𝖊 𝖂𝖎𝖓𝖉𝖔𝖜𝖘 𝕺𝖕𝖙𝖎𝖒𝖎𝖟𝖆𝖙𝖎𝖔𝖓        ║
-║        💎 PLATA O PLOMO EDITION v6.0 💎                      ║
-╚═══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════╗
+║     𝕰𝖑 𝕵𝖊𝖋𝖊'𝖘 𝖀𝖑𝖙𝖎𝖒𝖆𝖙𝖊 𝖂𝖎𝖓𝖉𝖔𝖜𝖘 𝕮𝖆𝖗𝖙𝖊𝖑              ║
+║        💀 EDICIÓN SICARIO SUPREMO v6.66 💀                  ║
+╚══════════════════════════════════════════════════════════════╝
 ```
 
 </div>
 
 ---
 
-## 🎯 El Patrón's Power Move
+## 🗡️ El Comando del Jefe
 
 <div align="center">
 
 ```powershell
-# 🚀 ONE-LINE TO ABSOLUTE POWER (Run as El Patrón [Administrator]):
+# 🔪 UN COMANDO PARA EL PODER ABSOLUTO (Ejecutar como El Patrón [Administrador]):
 irm https://raw.githubusercontent.com/your-repo/winfast.ps1 | iex
 ```
 
 </div>
 
-## 💎 The Cartel's Arsenal
+## 💉 El Arsenal del Cártel
 
 <div align="center">
 
-| 🔫 Operation | 💰 Benefit | ⚡ Power Level |
+| 🔫 Operación | 💰 Beneficio | ⚡ Nivel de Poder |
 |:---:|:---:|:---:|
-| Memory Cartel | RAM Optimization | ![](https://progress-bar.dev/100/?title=MAXIMUM&color=ff0000) |
-| Network Empire | TCP/IP Domination | ![](https://progress-bar.dev/100/?title=SUPREME&color=gold) |
-| Registry Sicarios | System Hitmen | ![](https://progress-bar.dev/100/?title=LETHAL&color=darkred) |
-| Service Limpieza | Cleanup Crew | ![](https://progress-bar.dev/100/?title=RUTHLESS&color=black) |
+| Cártel de Memoria | Optimización RAM | ![](https://progress-bar.dev/100/?title=SICARIO&color=ff0000) |
+| Imperio de Red | Dominación TCP/IP | ![](https://progress-bar.dev/100/?title=ASESINO&color=gold) |
+| Sicarios del Registro | Limpieza Total | ![](https://progress-bar.dev/100/?title=MORTAL&color=darkred) |
+| Limpieza de Servicios | Eliminación | ![](https://progress-bar.dev/100/?title=BRUTAL&color=black) |
 
 </div>
 
@@ -227,69 +228,69 @@ Admin Rights
    - Page file tuning
    - Cache management
 
-## 🏛️ The Medellín Architecture
+## 🏛️ La Arquitectura del Cártel
 
 ```mermaid
 graph TD
-    A[El Patrón Entry] -->|Security Check| B{Admin Rights?}
-    B -->|Sí| C[System Analysis]
-    B -->|No| D[Elevation Request]
-    C --> E[Parallel Optimization]
-    E --> F[Registry Hitmen]
-    E --> G[Network Takeover]
-    E --> H[Memory Empire]
-    F --> I[System Purge]
+    A[Entrada del Jefe] -->|Control de Seguridad| B{¿Derechos de Admin?}
+    B -->|Sí, Jefe| C[Análisis del Sistema]
+    B -->|No, Pendejo| D[Solicitud de Elevación]
+    C --> E[Optimización Paralela]
+    E --> F[Sicarios del Registro]
+    E --> G[Toma de Control de Red]
+    E --> H[Imperio de Memoria]
+    F --> I[Purga del Sistema]
     G --> I
     H --> I
-    I --> J[Territory Secured]
-    style A fill:#ff0000,color:#fff
-    style B fill:#gold,color:#000
-    style C fill:#darkred,color:#fff
+    I --> J[Territorio Asegurado]
+    style A fill:#8B0000,color:#fff
+    style B fill:#FFD700,color:#000
+    style C fill:#2F4F4F,color:#fff
     style J fill:#006400,color:#fff
 ```
 
-## 🎭 Before & After
+## 🎭 Antes y Después
 
 <div align="center">
 
-| Metric | Before | After |
+| Métrica | Antes | Después |
 |:---:|:---:|:---:|
-| System Power | Street Level | Cartel Boss |
-| Performance | Peasant | El Patrón |
-| Speed | Bicycle | Private Jet |
-| Status | Dead Weight | Made Man |
+| Poder del Sistema | Rata Callejera | El Jefe |
+| Rendimiento | Basura | Sicario Elite |
+| Velocidad | Burro | Jet Privado |
+| Estado | Muerto | Intocable |
 
 </div>
 
-## ⚠️ El Patrón's Terms
+## ⚠️ Las Reglas del Cártel
 
 <div align="center">
 
 ```
-As Don Pablo always says:
-"Sometimes I am God, if I say a system runs fast, it runs fast that same day"
+Como dice El Jefe:
+"O corres rápido, o no corres nunca más, cabrón."
 ```
 
 </div>
 
-## 🌟 The Family's Code
+## 🌟 El Código de la Familia
 
-1. **Respect the System** - Like respect in Medellín, it's earned
-2. **Test First** - We don't ship bad product
-3. **Document Everything** - Keep your books clean
-4. **Optimize Smart** - Work smarter, not harder
-5. **Stay Protected** - We're running a legitimate business here
+1. **Respeta al Sistema** - Como respetas al Jefe
+2. **Prueba Primero** - No vendemos producto malo
+3. **Documenta Todo** - Los libros limpios mantienen viva a la familia
+4. **Optimiza con Inteligencia** - Trabajo inteligente, no estúpido
+5. **Mantente Protegido** - Este es un negocio legítimo, ¿entiendes?
 
-## 🏆 Territory Dominance
+## 🏆 Control del Territorio
 
 <div align="center">
 
-| Region | Status | Control |
+| Región | Estado | Control |
 |:---:|:---:|:---:|
-| Memory | Secured | 100% |
-| Network | Dominated | 100% |
-| Registry | Controlled | 100% |
-| Services | Owned | 100% |
+| Memoria | Conquistada | 💯 |
+| Red | Dominada | 💯 |
+| Registro | Controlado | 💯 |
+| Servicios | Sometidos | 💯 |
 
 </div>
 
@@ -329,13 +330,13 @@ iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.co
 
 </div>
 
-## 📊 Empire Statistics
+## 📊 Estadísticas del Imperio
 
 <div align="center">
 
-![Systems Controlled](https://img.shields.io/badge/Systems%20Controlled-1000%2B-darkred?style=for-the-badge)
-![Territory](https://img.shields.io/badge/Territory-Expanding-gold?style=for-the-badge)
-![Power](https://img.shields.io/badge/Power-Absolute-black?style=for-the-badge)
+![Sistemas Controlados](https://img.shields.io/badge/Sistemas%20Controlados-666%2B-darkred?style=for-the-badge)
+![Territorio](https://img.shields.io/badge/Territorio-Expandiendo-gold?style=for-the-badge)
+![Poder](https://img.shields.io/badge/Poder-Absoluto-black?style=for-the-badge)
 
 </div>
 
@@ -343,11 +344,11 @@ iex ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.co
 
 <div align="center">
 
-### Made with 💎 by El Patrón's Tech Cartel
+### Hecho con 💀 por Los Sicarios Tecnológicos del Cártel
 
 <img src="https://raw.githubusercontent.com/gist/ManulMax/2d20af60d709805c55fd784ca7cba4b9/raw/bcfeac7604f674ace63623106eb8bb8471d844a6/github.gif" width="50px">
 
-**"La vida es corta, Windows debe ser rápido."**
-*- Pablo Escobar, probably*
+**"La vida es corta, Windows debe ser más rápido que la muerte."**
+*- El Jefe, 2024*
 
 </div> 
