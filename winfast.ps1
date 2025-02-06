@@ -12,33 +12,19 @@ $extremeServiceOptimizations = @(
     "dmwappushservice",       # Device Management WAP Push Service
     "MapsBroker",            # Downloaded Maps Manager
     "lfsvc",                 # Geolocation Service
-    "IKEEXT",                # IKE and AuthIP IPsec Keying Modules
-    "SharedAccess",          # Internet Connection Sharing
-    "lltdsvc",               # Link-Layer Topology Discovery Mapper
-    "wlidsvc",               # Microsoft Account Sign-in Assistant
-    "NgcSvc",                # Microsoft Passport
-    "NgcCtnrSvc",           # Microsoft Passport Container
-    "RemoteRegistry",        # Remote Registry
-    "WSearch",               # Windows Search
-    "WerSvc",                # Windows Error Reporting Service
-    "WMPNetworkSvc",         # Windows Media Player Network Sharing
-    "SEMgrSvc",              # Payments and NFC/SE Manager
-    "PcaSvc",                # Program Compatibility Assistant
-    "QWAVE",                 # Quality Windows Audio Video Experience
-    "RmSvc",                 # Radio Management Service
-    "SensorDataService",     # Sensor Data Service
-    "SensrSvc",              # Sensor Monitoring Service
-    "SensorService",         # Sensor Service
-    "SSDPSRV",               # SSDP Discovery
-    "WiaRpc",                # Still Image Acquisition Events
-    "TabletInputService",    # Touch Keyboard and Handwriting Panel Service
-    "wisvc",                 # Windows Insider Service
-    "icssvc",                # Windows Mobile Hotspot Service
-    "WpnService",            # Windows Push Notifications System Service
-    "XboxGipSvc",            # Xbox Accessory Management Service
+    "WSearch",               # Windows Search (only if you don't use search)
+    "XboxGipSvc",            # Xbox Peripherals Service
     "XblAuthManager",        # Xbox Live Auth Manager
     "XblGameSave",           # Xbox Live Game Save Service
-    "XboxNetApiSvc"          # Xbox Live Networking Service
+    "XboxNetApiSvc",         # Xbox Live Networking Service
+    "WMPNetworkSvc",         # Windows Media Player Network Sharing
+    "wisvc",                 # Windows Insider Service
+    "WerSvc",                # Windows Error Reporting Service
+    "QWAVE",                 # Quality Windows Audio Video Experience
+    "RemoteRegistry",        # Remote Registry
+    "RetailDemo",            # Retail Demo Service
+    "WalletService",         # Wallet Service
+    "WebClient"              # WebClient Service
 )
 
 $bloatwareApps = @(
@@ -1120,11 +1106,32 @@ function Apply-UltimatePerformance {
         if (Get-UserConfirmation -Operation "Optimize Services" -Impact "PERFORMANCE" -Details "Optimizing non-essential services while preserving system functionality") {
             foreach ($service in $extremeServiceOptimizations) {
                 try {
+                    # Check if service is in critical list
+                    if ($criticalServices -contains $service) {
+                        Write-Host "  ⚠️ Skipping critical service $service" -ForegroundColor Yellow
+                        continue
+                    }
+
                     $serviceObj = Get-Service -Name $service -ErrorAction Stop
                     if ($serviceObj.Status -eq "Running") {
                         Write-Host "  ⚡ Optimizing $service..." -ForegroundColor Cyan
-                        Stop-Service -Name $service -Force -ErrorAction Stop
-                        Set-Service -Name $service -StartupType Disabled -ErrorAction Stop
+                        
+                        # Set to Manual instead of Disabled for safety
+                        Set-Service -Name $service -StartupType Manual -ErrorAction Stop
+                        
+                        # Only stop if not dependent on critical services
+                        $deps = Get-Service -Name $service -DependentServices -ErrorAction Stop
+                        $hasCriticalDeps = $false
+                        foreach ($dep in $deps) {
+                            if ($criticalServices -contains $dep.Name) {
+                                $hasCriticalDeps = $true
+                                break
+                            }
+                        }
+                        
+                        if (-not $hasCriticalDeps) {
+                            Stop-Service -Name $service -Force -ErrorAction Stop
+                        }
                     }
                 }
                 catch {
