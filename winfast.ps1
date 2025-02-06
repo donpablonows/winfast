@@ -8,18 +8,37 @@ $ErrorActionPreference = 'Stop'
 
 # Initialize optimization variables
 $extremeServiceOptimizations = @(
-    "DiagTrack",
-    "dmwappushservice",
-    "SysMain",
-    "WSearch",
-    "XboxGipSvc",
-    "XblAuthManager",
-    "XblGameSave",
-    "XboxNetApiSvc",
-    "TabletInputService",
-    "WMPNetworkSvc",
-    "WerSvc",
-    "WbioSrvc"
+    "DiagTrack",              # Connected User Experiences and Telemetry
+    "dmwappushservice",       # Device Management WAP Push Service
+    "MapsBroker",            # Downloaded Maps Manager
+    "lfsvc",                 # Geolocation Service
+    "IKEEXT",                # IKE and AuthIP IPsec Keying Modules
+    "SharedAccess",          # Internet Connection Sharing
+    "lltdsvc",               # Link-Layer Topology Discovery Mapper
+    "wlidsvc",               # Microsoft Account Sign-in Assistant
+    "NgcSvc",                # Microsoft Passport
+    "NgcCtnrSvc",           # Microsoft Passport Container
+    "RemoteRegistry",        # Remote Registry
+    "WSearch",               # Windows Search
+    "WerSvc",                # Windows Error Reporting Service
+    "WMPNetworkSvc",         # Windows Media Player Network Sharing
+    "SEMgrSvc",              # Payments and NFC/SE Manager
+    "PcaSvc",                # Program Compatibility Assistant
+    "QWAVE",                 # Quality Windows Audio Video Experience
+    "RmSvc",                 # Radio Management Service
+    "SensorDataService",     # Sensor Data Service
+    "SensrSvc",              # Sensor Monitoring Service
+    "SensorService",         # Sensor Service
+    "SSDPSRV",               # SSDP Discovery
+    "WiaRpc",                # Still Image Acquisition Events
+    "TabletInputService",    # Touch Keyboard and Handwriting Panel Service
+    "wisvc",                 # Windows Insider Service
+    "icssvc",                # Windows Mobile Hotspot Service
+    "WpnService",            # Windows Push Notifications System Service
+    "XboxGipSvc",            # Xbox Accessory Management Service
+    "XblAuthManager",        # Xbox Live Auth Manager
+    "XblGameSave",           # Xbox Live Game Save Service
+    "XboxNetApiSvc"          # Xbox Live Networking Service
 )
 
 $bloatwareApps = @(
@@ -89,7 +108,6 @@ $networkTweaks = @{
         "EnableTCPA" = 0
         "EnableICMPRedirect" = 0
         "DeadGWDetectDefault" = 1
-        "DnsQueryTimeouts" = "1 1 2 2 4 8"
         "MaxConnectionsPer1_0Server" = 16
         "TcpMaxDataRetransmissions" = 3
         "KeepAliveTime" = 7200000
@@ -107,12 +125,12 @@ $gamingTweaks = @{
     "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" = @{
         "GPU Priority" = 8
         "Priority" = 6
-        "Scheduling Category" = "High"
-        "SFIO Priority" = "High"
-        "Background Only" = "False"
+        "Scheduling Category" = 2
+        "SFIO Priority" = 2
+        "Background Only" = 0
         "Clock Rate" = 10000
         "Affinity" = 0
-        "Latency Sensitive" = "True"
+        "Latency Sensitive" = 1
     }
     "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" = @{
         "NetworkThrottlingIndex" = 4294967295
@@ -806,6 +824,11 @@ function Set-RegistryPropertySafe {
             New-Item -Path $Path -Force -ErrorAction Stop | Out-Null
         }
         
+        # Convert string values to appropriate numeric types if needed
+        if ($Type -eq "DWord" -and $Value -is [string]) {
+            $Value = [int]$Value
+        }
+        
         Set-ItemProperty -Path $Path -Name $Name -Value $Value -Type $Type -ErrorAction Stop
         return $true
     }
@@ -896,7 +919,7 @@ function Apply-UltimatePerformance {
             # CPU Priority Optimization
             foreach ($process in $criticalProcesses) {
                 Get-Process -Name $process -ErrorAction SilentlyContinue | ForEach-Object {
-                    $_.PriorityClass = "High"
+                    $_.PriorityClass = 256  # High priority (numeric value)
                 }
             }
         }
@@ -976,7 +999,6 @@ function Apply-UltimatePerformance {
                 "EnableTCPA" = 0
                 "EnableICMPRedirect" = 0
                 "DeadGWDetectDefault" = 1
-                "DnsQueryTimeouts" = "1 1 2 2 4 8"
                 "MaxConnectionsPer1_0Server" = 16
                 "TcpMaxDataRetransmissions" = 3
                 "KeepAliveTime" = 7200000
@@ -995,12 +1017,12 @@ function Apply-UltimatePerformance {
             "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile\Tasks\Games" = @{
                 "GPU Priority" = 8
                 "Priority" = 6
-                "Scheduling Category" = "High"
-                "SFIO Priority" = "High"
-                "Background Only" = "False"
+                "Scheduling Category" = 2
+                "SFIO Priority" = 2
+                "Background Only" = 0
                 "Clock Rate" = 10000
                 "Affinity" = 0
-                "Latency Sensitive" = "True"
+                "Latency Sensitive" = 1
             }
             "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Multimedia\SystemProfile" = @{
                 "NetworkThrottlingIndex" = 4294967295
@@ -1092,16 +1114,27 @@ function Apply-UltimatePerformance {
         }
 
         # Update service optimization section
-        foreach ($service in $servicesToDisable) {
-            if (Get-UserConfirmation -Operation "Disable Service" -Impact "PERFORMANCE" -Details "Disabling $service for better performance") {
-                $serviceStatus = Get-ServiceStatus -ServiceName $service
-                if ($serviceStatus.Success) {
-                    $stopped = Stop-ServiceSafely -ServiceName $service
-                    if ($stopped) {
-                        Set-ServiceStartupType -ServiceName $service -StartupType "Disabled"
+        Write-Host "🚫 Disabling non-essential services..." -ForegroundColor Red
+        
+        # Single confirmation for all services
+        if (Get-UserConfirmation -Operation "Optimize Services" -Impact "PERFORMANCE" -Details "Optimizing non-essential services while preserving system functionality") {
+            foreach ($service in $extremeServiceOptimizations) {
+                try {
+                    $serviceObj = Get-Service -Name $service -ErrorAction Stop
+                    if ($serviceObj.Status -eq "Running") {
+                        Write-Host "  ⚡ Optimizing $service..." -ForegroundColor Cyan
+                        Stop-Service -Name $service -Force -ErrorAction Stop
+                        Set-Service -Name $service -StartupType Disabled -ErrorAction Stop
                     }
                 }
+                catch {
+                    Write-Host "  ⚠️ Skipping $service - Required by system" -ForegroundColor Yellow
+                    continue
+                }
             }
+            Write-Host "✅ Service optimization complete!" -ForegroundColor Green
+        } else {
+            Write-Host "⏭️ Skipping service optimization..." -ForegroundColor Yellow
         }
 
         # Ultimate System Response
@@ -1512,10 +1545,17 @@ function Apply-UltimatePerformance {
         )
 
         Write-Host "🚫 Disabling non-essential services..." -ForegroundColor Red
-        foreach ($service in $extremeServiceOptimizations) {
-            if (Get-UserConfirmation -Operation "Disable Service" -Impact "PERFORMANCE" -Details "Disabling $service for maximum performance") {
-                Stop-Service -Name $service -Force -ErrorAction SilentlyContinue
-                Set-Service -Name $service -StartupType Disabled -ErrorAction SilentlyContinue
+        
+        # Single confirmation for all services
+        if (Get-UserConfirmation -Operation "Disable All Services" -Impact "PERFORMANCE" -Details "Disabling all non-essential services for maximum performance") {
+            foreach ($service in $extremeServiceOptimizations) {
+                $serviceStatus = Get-ServiceStatus -ServiceName $service
+                if ($serviceStatus.Success) {
+                    $stopped = Stop-ServiceSafely -ServiceName $service
+                    if ($stopped) {
+                        Set-ServiceStartupType -ServiceName $service -StartupType "Disabled"
+                    }
+                }
             }
         }
 
@@ -1578,7 +1618,6 @@ function Apply-UltimatePerformance {
                 "EnableTCPA" = 0
                 "EnableICMPRedirect" = 0
                 "DeadGWDetectDefault" = 1
-                "DnsQueryTimeouts" = "1 1 2 2 4 8"
                 "MaxConnectionsPer1_0Server" = 16
                 "TcpMaxDataRetransmissions" = 3
                 "KeepAliveTime" = 7200000
