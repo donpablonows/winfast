@@ -20,8 +20,6 @@ $extremeServiceOptimizations = @(
     "WMPNetworkSvc",         # Windows Media Player Network Sharing
     "wisvc",                 # Windows Insider Service
     "WerSvc",                # Windows Error Reporting Service
-    "QWAVE",                 # Quality Windows Audio Video Experience
-    "RemoteRegistry",        # Remote Registry
     "RetailDemo",            # Retail Demo Service
     "WalletService",         # Wallet Service
     "WebClient"              # WebClient Service
@@ -1408,53 +1406,29 @@ function Apply-UltimatePerformance {
         $extremeServiceOptimizations = @(
             "AJRouter",                # AllJoyn Router Service
             "ALG",                    # Application Layer Gateway
-            "AppIDSvc",              # Application Identity
-            "AppMgmt",               # Application Management
-            "AppReadiness",          # App Readiness
-            "AppXSvc",               # AppX Deployment Service
-            "Audiosrv",              # Windows Audio
-            "AxInstSV",              # ActiveX Installer
-            "BDESVC",                # BitLocker Drive Encryption
             "Browser",               # Computer Browser
             "CDPSvc",                # Connected Devices Platform
             "CertPropSvc",           # Certificate Propagation
             "ClipSVC",               # Client License Service
             "COMSysApp",             # COM+ System Application
             "DoSvc",                 # Delivery Optimization
-            "DPS",                   # Diagnostic Policy Service
-            "DsmSvc",                # Device Setup Manager
-            "Eaphost",               # Extensible Authentication
-            "EFS",                   # Encrypting File System
             "EntAppSvc",             # Enterprise App Management
             "Fax",                   # Fax
             "FDResPub",              # Function Discovery Resource Publication
-            "FontCache",             # Windows Font Cache
             "FrameServer",           # Windows Camera Frame Server
             "GoogleChromeElevationService", # Chrome Elevation Service
-            "gpsvc",                 # Group Policy Client
-            "GraphicsPerfSvc",       # Graphics Performance Monitor
             "HomeGroupListener",     # HomeGroup Listener
             "HomeGroupProvider",     # HomeGroup Provider
             "HvHost",                # HV Host Service
             "icssvc",                # Windows Mobile Hotspot Service
-            "IKEEXT",                # IKE and AuthIP IPsec Keying Modules
-            "iphlpsvc",              # IP Helper
             "IpxlatCfgSvc",         # IP Translation Configuration Service
-            "KeyIso",                # CNG Key Isolation
-            "KtmRm",                 # KtmRm for Distributed Transaction Coordinator
-            "LanmanServer",          # Server
-            "LanmanWorkstation",     # Workstation
-            "lfsvc",                 # Geolocation Service
-            "LicenseManager",        # Windows License Manager Service
             "lltdsvc",               # Link-Layer Topology Discovery Mapper
-            "lmhosts",               # TCP/IP NetBIOS Helper
             "MMCSS",                 # Multimedia Class Scheduler
             "MozillaMaintenance",    # Mozilla Maintenance Service
             "MSiSCSI",              # Microsoft iSCSI Initiator Service
             "NcaSvc",               # Network Connectivity Assistant
             "NcbService",           # Network Connection Broker
             "NcdAutoSetup",         # Network Connected Devices Auto-Setup
-            "Netlogon",             # Netlogon
             "NetTcpPortSharing",    # Net.Tcp Port Sharing Service
             "PcaSvc",               # Program Compatibility Assistant Service
             "PerfHost",             # Performance Counter DLL Host
@@ -1467,30 +1441,25 @@ function Apply-UltimatePerformance {
             "RasAuto",              # Remote Access Auto Connection Manager
             "RasMan",               # Remote Access Connection Manager
             "RemoteAccess",         # Routing and Remote Access
-            "RemoteRegistry",       # Remote Registry
             "RmSvc",                # Radio Management Service
             "RpcLocator",           # Remote Procedure Call (RPC) Locator
             "SCardSvr",             # Smart Card
             "ScDeviceEnum",         # Smart Card Device Enumeration Service
             "SCPolicySvc",          # Smart Card Removal Policy
             "SDRSVC",               # Windows Backup
-            "SecurityHealthService", # Windows Security Health Service
             "SEMgrSvc",             # Payments and NFC/SE Manager
             "SensorDataService",    # Sensor Data Service
             "SensorService",        # Sensor Service
             "SensrSvc",             # Sensor Monitoring Service
             "SessionEnv",           # Remote Desktop Configuration
             "SharedAccess",         # Internet Connection Sharing (ICS)
-            "ShellHWDetection",     # Shell Hardware Detection
             "SNMPTRAP",             # SNMP Trap
-            "Spooler",              # Print Spooler
             "SSDPSRV",              # SSDP Discovery
             "SstpSvc",              # Secure Socket Tunneling Protocol Service
             "stisvc",               # Windows Image Acquisition (WIA)
             "StorSvc",              # Storage Service
             "svsvc",                # Spot Verifier
             "swprv",                # Microsoft Software Shadow Copy Provider
-            "SysMain",              # Superfetch
             "TabletInputService",   # Touch Keyboard and Handwriting Panel Service
             "TapiSrv",              # Telephony
             "TermService",          # Remote Desktop Services
@@ -1498,12 +1467,10 @@ function Apply-UltimatePerformance {
             "TieringEngineService", # Storage Tiers Management
             "TimeBrokerSvc",        # Time Broker
             "TrkWks",               # Distributed Link Tracking Client
-            "TrustedInstaller",     # Windows Modules Installer
             "tzautoupdate",         # Auto Time Zone Updater
             "UevAgentService",      # User Experience Virtualization Service
             "UmRdpService",         # Remote Desktop Services UserMode Port Redirector
             "upnphost",             # UPnP Device Host
-            "UserManager",          # User Manager
             "UsoSvc",               # Update Orchestrator Service
             "VaultSvc",             # Credential Manager
             "vmicguestinterface",   # Hyper-V Guest Service Interface
@@ -1517,38 +1484,24 @@ function Apply-UltimatePerformance {
             "VSS",                  # Volume Shadow Copy
             "W32Time",              # Windows Time
             "WaaSMedicSvc",         # Windows Update Medic Service
-            "WalletService",        # WalletService
-            "WarpJITSvc",           # WarpJITSvc
             "wbengine",             # Block Level Backup Engine Service
             "WbioSrvc",             # Windows Biometric Service
             "wcncsvc",              # Windows Connect Now - Config Registrar
             "WdiServiceHost",       # Diagnostic Service Host
             "WdiSystemHost",        # Diagnostic System Host
-            "WebClient",            # WebClient
             "Wecsvc",               # Windows Event Collector
             "WEPHOSTSVC",           # Windows Encryption Provider Host Service
             "wercplsupport",        # Problem Reports and Solutions Control Panel Support
-            "WerSvc",               # Windows Error Reporting Service
             "WiaRpc",               # Still Image Acquisition Events
-            "wisvc",                # Windows Insider Service
-            "WlanSvc",              # WLAN AutoConfig
             "wlidsvc",              # Microsoft Account Sign-in Assistant
             "wlpasvc",              # Local Profile Assistant Service
             "WManSvc",              # Windows Management Service
             "wmiApSrv",             # WMI Performance Adapter
-            "WMPNetworkSvc",        # Windows Media Player Network Sharing Service
             "workfolderssvc",       # Work Folders
             "WpcMonSvc",            # Parental Controls
             "WPDBusEnum",           # Portable Device Enumerator Service
             "WpnService",           # Windows Push Notifications System Service
-            "wscsvc",               # Security Center
-            "WSearch",              # Windows Search
-            "wuauserv",             # Windows Update
-            "WwanSvc",              # WWAN AutoConfig
-            "XblAuthManager",       # Xbox Live Auth Manager
-            "XblGameSave",          # Xbox Live Game Save Service
-            "XboxGipSvc",           # Xbox Accessory Management Service
-            "XboxNetApiSvc"         # Xbox Live Networking Service
+            "WwanSvc"              # WWAN AutoConfig
         )
 
         Write-Host "🚫 Disabling non-essential services..." -ForegroundColor Red
