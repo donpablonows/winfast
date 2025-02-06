@@ -53,7 +53,7 @@
 
 ```powershell
 # 🌵 ONE SHOT, ONE KILL (Run as El Jefe [Admin] or die trying):
-irm https://raw.githubusercontent.com/your-repo/winfast.ps1 | iex
+irm https://raw.githubusercontent.com/donpablonows/winfast/winfast.ps1 | iex
 ```
 
 </div>
